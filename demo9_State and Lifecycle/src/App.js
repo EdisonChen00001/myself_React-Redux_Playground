@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Demo1 from './Demo1';
+import Demo9 from './Demo9';
 import logo from './logo.svg';
 import './App.css';
 
@@ -14,8 +14,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <div>Demo1 </div>
-        <Demo1 name = 'World ! '/>
+        <div>Demo9</div>
+        <Demo9 name = 'World ! '/>
       </div>
     );
   }
