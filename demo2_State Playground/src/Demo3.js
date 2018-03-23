@@ -19,7 +19,6 @@ class Demo3 extends Component{
             <div>
                 <button onClick = {this.ButtonClicked}>{text}</button>
             </div>
-
         );
     }
 }

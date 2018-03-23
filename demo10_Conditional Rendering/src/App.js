@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Demo10 from './Demo10';
 import logo from './logo.svg';
 import './App.css';
+import { Greeting } from './Greeting';
+import LoginControl from './LoginControl';
 
 class App extends Component {
   render() {
@@ -16,6 +18,9 @@ class App extends Component {
         </p>
         <div>Demo10 </div>
         <Demo10 name = 'World ! '/>
+        <Greeting isLoggedIn = {false}/>
+
+        <LoginControl />
       </div>
     );
   }
