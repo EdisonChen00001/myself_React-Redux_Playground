@@ -4,9 +4,13 @@ import logo from './logo.svg';
 import './App.css';
 import { Greeting } from './Greeting';
 import LoginControl from './LoginControl';
+import {Mailbox} from './Mailbox';
+import Page from './Page';
 
 class App extends Component {
   render() {
+    const messages = ['react','redux','axios','Webpack'];
+
     return (
       <div className="App">
         <header className="App-header">
@@ -21,6 +25,9 @@ class App extends Component {
         <Greeting isLoggedIn = {false}/>
 
         <LoginControl />
+
+        <Mailbox unreadMessages={messages}/>
+        <Page/>
       </div>
     );
   }
