@@ -1,0 +1,1 @@
+Hello World Play Wire to app.js
