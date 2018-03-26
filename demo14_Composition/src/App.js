@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+import {FancyBorder} from './FancyBorder';
 import logo from './logo.svg';
 import './App.css';
-import Calculator from './Calculator';
-import WaterState from './WaterState';
 
 class App extends Component {
   render() {
@@ -15,8 +14,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Calculator/>
-        <WaterState />
+        <FancyBorder/>
       </div>
     );
   }
