@@ -1,12 +1,10 @@
 import React, {Component} from 'react' ; 
-import {render} from 'react-dom';
 
 class Demo6 extends Component{
 
     handleClick(i){
         console.log('You clicked' + this.props.items[i]);
     }
-
     render(){
         return (
         <div>
@@ -16,9 +14,7 @@ class Demo6 extends Component{
                         {item}
                     </div>
                 );
-
             })}
-        
         </div>
         );
     }
