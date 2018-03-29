@@ -3,6 +3,9 @@ import Demo1 from './Demo1';
 import logo from './logo.svg';
 import './App.css';
 
+import FatherComponent from './FatherComponent';
+import ChildComponent from './ChildComponent';
+
 class App extends Component {
   render() {
     return (
@@ -16,6 +19,7 @@ class App extends Component {
         </p>
         <div>Demo1 </div>
         <Demo1 name = 'World ! '/>
+        <FatherComponent/>
       </div>
     );
   }
