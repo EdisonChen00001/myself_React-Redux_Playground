@@ -12,7 +12,7 @@ export default class Child extends Component{
                 {this.props.text}
                 <br />
                 <button onClick={this.props.refreshParent}>
-                    update parent component
+                    refresh parent component
                 </button>
             </div>
         )

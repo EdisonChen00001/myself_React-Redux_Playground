@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Demo6 from './Demo6';
 import logo from './logo.svg';
 import './App.css';
+import Parent from './Parent';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         </p>
         <div>Demo6 </div>
         <Demo6 items={['Apple', 'Banana', 'Cranberry']} />
+        <Parent />
       </div>
     );
   }
