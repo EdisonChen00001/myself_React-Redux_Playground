@@ -4,7 +4,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import FatherComponent from './FatherComponent';
-import ChildComponent from './ChildComponent';
+//import ChildComponent from './ChildComponent';
+import AutoFocusInput from './AutoFocusinput';
 
 class App extends Component {
   render() {
@@ -20,6 +21,8 @@ class App extends Component {
         <div>Demo1 </div>
         <Demo1 name = 'World ! '/>
         <FatherComponent/>
+        <hr/>
+        <AutoFocusInput/>
       </div>
     );
   }
